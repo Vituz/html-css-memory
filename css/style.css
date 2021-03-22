@@ -8,21 +8,94 @@ body{
     background-color: rgba(173, 216, 230, 1);
     width: 80%;
     margin: auto;
-}
-
-/* Header */
-.nerko_font{
-    font-family: Nerko One, Arial, Helvetica, sans-serif;
-}
-
-header h1{
     text-align: center;
-    font-size: 150px;
-    color: white;
 }
 
+/* Utility */
 .text_shadow{
     text-shadow: 2px 2px 4px black; 
 }
 
+.box_shadow{
+    box-shadow: 0 0 5px black;
+}
+
+.nerko_font{
+    font-family: Nerko One, Arial, Helvetica, sans-serif;
+}
+/* /Utility */
+
+/* Header */
+header h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
 /* /Header */
+
+/* Main */
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 1rem;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.fronte{
+    object-fit: cover;
+    width: 80%;
+    object-position: center;
+}
+
+.retro{
+   width: 100%;
+   height: 100%;
+   border-radius: 1rem;
+   object-fit: cover;
+   position: absolute;
+   background-image: url("../img/pattern.png");
+   background-size: 100%;
+}
+
+.front_view{
+    display: none;
+}
+
+.card:hover .front_view{
+    display: inline-block;
+}
+
+.card:hover .retro{
+    background-image: none;
+}
+
+.bicycle{
+    color: green;
+}
+
+.tram{
+    color: red;
+}
+
+.tractor{
+    color: rgba(230, 121, 25, 1);
+}
+
+.air_ballon{
+    color: rgba(230, 25, 134, 1);
+}
+
+.submarine{
+    color: mediumslateblue;
+}
+
+.ship{
+    color: salmon;
+}
+
+/* /Main */
