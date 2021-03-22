@@ -3,3 +3,26 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: rgba(173, 216, 230, 1);
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+.nerko_font{
+    font-family: Nerko One, Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-size: 150px;
+    color: white;
+}
+
+.text_shadow{
+    text-shadow: 2px 2px 4px black; 
+}
+
+/* /Header */
