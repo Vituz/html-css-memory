@@ -62,6 +62,10 @@ header h1{
    background-size: 100%;
 }
 
+.nobg{
+    background-image: none;
+}
+
 .front_view{
     display: none;
 }
